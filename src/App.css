@@ -13,6 +13,14 @@
   }
 }
 
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
 .node-label {
   font-size: 12px;
   padding: 1px 4px;
